@@ -1,0 +1,10 @@
+name: my first ci cd job    
+on : [push]
+jobs:
+  PerformCodeAnalysis:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "I am going to perform some code analysis"
+    - run: echo "seems it works"
+    - run : ls - la
+    - run: pdw
