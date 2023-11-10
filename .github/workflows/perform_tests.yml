@@ -18,4 +18,4 @@ jobs:
       - name: try to compile
         run: mvn compile
       - name : run my tests
-        run : nvm test
+        run : mvn test
