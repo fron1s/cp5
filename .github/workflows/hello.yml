@@ -6,5 +6,5 @@ jobs:
     steps:
     - run: echo "I am going to perform some code analysis"
     - run: echo "seems it works"
-    - run : ls - la
+    - run : ls -la
     - run: pdw
