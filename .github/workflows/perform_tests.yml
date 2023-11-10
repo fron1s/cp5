@@ -16,6 +16,6 @@ jobs:
           distribution: 'temurin'
           architecture: x64
       - name: try to compile
-      - run: mvn compile
+        run: mvn compile
       - name : run my tests
-      - run : nvm test
+        run : nvm test
